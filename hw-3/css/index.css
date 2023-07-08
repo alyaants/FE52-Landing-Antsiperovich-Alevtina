@@ -1,0 +1,32 @@
+@import url(./cards.css);
+@import url(./fonts.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Open Sans", "Raleway", sans-serif;
+}
+
+.container{
+    min-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.title{
+    margin: auto;
+    color: #212121;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
