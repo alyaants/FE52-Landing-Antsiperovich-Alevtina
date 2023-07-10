@@ -14,7 +14,7 @@ html{
 }
 
 .container{
-    min-width: 1170px;
+    max-width: 1170px;
     margin: auto;
     padding: 0 15px;
 }

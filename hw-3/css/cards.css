@@ -1,7 +1,7 @@
 .cards{
     background-color: #ffffff;
     padding: 80px 0;
-    display: flex;
+    height: 600px;
 }
 
 .line{
@@ -25,18 +25,14 @@
 }
 
 .wrap{    
+    margin-top: 68px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    /* margin-left: 127px;
-    margin-right: 133px; */
-    margin-top: 68px;
-    margin-left: 45px;
+
 }
 .card{
     width: 350px;
-    /* margin: auto; */
-    margin-right: 50px;
 }
 
 .card_name{
