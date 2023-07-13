@@ -4,6 +4,7 @@
     height: 600px;
 }
 
+
 .line{
     width: 64px;
     height: 1px;
@@ -29,7 +30,6 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
-
 }
 .card{
     width: 350px;
