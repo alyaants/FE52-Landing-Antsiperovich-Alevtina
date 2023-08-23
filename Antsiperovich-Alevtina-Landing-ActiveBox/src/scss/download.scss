@@ -1,0 +1,107 @@
+.download{
+    padding: 114px 0;
+    
+    @media (max-width: 1024px) {
+        padding: 77.51px 0 78px;
+      }
+
+      @media (max-width: 320px) {
+        padding: 40px 0 45px;
+      }
+} 
+
+.download-wrap{
+    h3{
+        color: #000;
+        text-align: center;
+        font-family: "Raleway";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 20px;
+
+        @media (max-width: 1024px) {
+        font-size: 24px;
+        margin-bottom: 15px;
+          }
+          @media (max-width: 320px) {
+            font-size: 18px;
+            margin-bottom: 15px;
+            width: 280px;
+              }
+    }
+    p{
+        color: #000;
+        text-align: center;
+        font-family: "Raleway";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 47.71px;
+        @media (max-width: 1024px) {
+            font-size: 14px;
+            margin-bottom: 43.29px;
+              }
+        @media (max-width: 320px) {
+            font-size: 13px;
+            margin-bottom: 11px;
+            }
+    }
+    a{
+        display: block;
+        width: 370px;
+        padding: 20px 0;
+        margin: auto;
+        color: #FFF;
+        text-align: center;
+        font-family: "Raleway";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+        background: #FF4343;
+        transition: 0.3s;
+
+        animation-name: download-btn;
+        animation-duration: 1.8s;
+        animation-iteration-count: infinite;
+        animation-timing-function:ease-in-out;
+
+        &:hover{
+            background: #E71414;
+        }
+        &:active{
+            background: #FF4343;
+            box-shadow: 4px 4px 30px 0px #FF4343;
+        }
+
+        @media (max-width: 1024px) {
+            width: 314px;
+            padding: 25px 0;
+              }
+        @media (max-width: 520px) {
+                width: 290px;
+              }
+        @media (max-width: 320px) {
+            width: 250px;
+            padding: 25px 0;
+              }
+
+    }
+    @keyframes download-btn{
+      0% {
+        transform:scarle(1);
+      }
+      50% {
+        transform:scale(1.1);
+        box-shadow: 0 0 35px 0 #f30707;
+      }
+      100% {
+      transform:scale(1);
+      }
+    }
+  }

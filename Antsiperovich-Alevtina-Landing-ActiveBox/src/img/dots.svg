@@ -1,0 +1,9 @@
+<svg width="170" height="14" viewBox="0 0 170 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="dots">
+<circle id="slide_control_normal" cx="163" cy="7" r="6.5" stroke="#7E5D6F"/>
+<circle id="slide_control_normal_2" cx="124" cy="7" r="6.5" stroke="#7E5D6F"/>
+<circle id="slide_control_normal_3" cx="85" cy="7" r="6.5" stroke="#7E5D6F"/>
+<circle id="slide control_active" cx="46" cy="7" r="6.5" fill="#7E5D6F" stroke="#7E5D6F"/>
+<circle id="slide_control_normal_4" cx="7" cy="7" r="6.5" stroke="#7E5D6F"/>
+</g>
+</svg>

@@ -1,0 +1,126 @@
+.features{
+    padding: 116px 0 133.57px;
+
+    @media (max-width: 1024px) {
+        padding: 78px 0 80.11px;
+      }
+        @media (max-width: 320px) {
+        padding: 40px 0 35px;
+      }
+} 
+.features-wrap{
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    align-content: center;
+    justify-content: space-between; 
+
+    .features__item{
+        width: 370px;
+        text-align: center;
+        margin: 0 auto 88.5px;
+        @media (max-width: 1169px) {
+            width: 350px;
+          }
+        @media (max-width: 1024px) {
+            width: 315px;
+            margin-bottom: 49px;
+          }
+          @media (max-width: 944px) {
+            width: 280px;
+          }
+          @media (max-width: 839px) {
+            width: 260px;
+          }
+          @media (max-width: 779px) {
+            width: 250px;
+          }
+        @media (max-width: 320px) {
+            width: 279px;
+            margin: 0 auto 41.47px;
+          }
+
+
+
+        &:nth-child(4){
+            margin-bottom: 0;
+            @media (max-width: 320px) {
+                margin-bottom: 41.47px;
+              }   
+              @media (max-width: 749px) {
+                margin: 0 auto 55.5px;
+              }     
+        }
+        &:nth-child(5){
+            margin-bottom: 0;
+
+              @media (max-width: 749px) {
+                margin-bottom: 0;
+              }      
+              @media (max-width: 497px) {
+                margin-bottom: 55.5px;
+              }        
+              @media (max-width: 320px) {
+                margin-bottom: 41.47px;
+              }   
+        }
+        &:nth-child(6){
+            margin-bottom: 0;
+        }
+        .features-img{
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 28px;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-position: center;
+                object-fit: cover;
+            }
+
+            @media (max-width: 1024px) {
+                width: 85px;
+                height: 85px;
+                margin-bottom: 24.52px;
+              }
+            @media (max-width: 320px) {
+                width: 75px;
+                height: 75px;
+                margin-bottom: 21.72px;
+              }
+        }
+
+        .features-title{
+            color: #2D3033;
+            text-align: center;
+            font-family: "Raleway";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-bottom: 20.43px;
+
+            @media (max-width:1024px){
+                font-size: 18px;
+            }
+        }
+        p{
+            color: #6C7279;
+            text-align: center;
+            font-family: "Raleway";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media (max-width:1024px){
+                font-size: 14px;
+            }
+        }
+
+    }
+}
